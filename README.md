@@ -35,6 +35,7 @@ The API doesn't filter any site or Verbs. This was deliberate for demo purposes 
 ## Login
 
 > Run this solution first [http://localhost:5001]
+
 > Run the Angular app [http://localhost:4200]
 
 Username : __admin@gmail.com__
