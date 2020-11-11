@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProviderService", "ProviderService\ProviderService.csproj", "{29D53D9E-CFCC-47E6-B5D6-D561200ACCC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{2463BA12-DF2F-4A98-BE39-BEF64065EEFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29D53D9E-CFCC-47E6-B5D6-D561200ACCC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D53D9E-CFCC-47E6-B5D6-D561200ACCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D53D9E-CFCC-47E6-B5D6-D561200ACCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D53D9E-CFCC-47E6-B5D6-D561200ACCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2463BA12-DF2F-4A98-BE39-BEF64065EEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2463BA12-DF2F-4A98-BE39-BEF64065EEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2463BA12-DF2F-4A98-BE39-BEF64065EEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2463BA12-DF2F-4A98-BE39-BEF64065EEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F75D67-CE07-4A44-A8BB-E1A642112BAB}
+	EndGlobalSection
+EndGlobal
