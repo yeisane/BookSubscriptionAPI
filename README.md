@@ -25,31 +25,19 @@ The API implements and Application Token architecture. This allows the api to be
 
 Some endpoints require a user to be logged in to consume the API. These will be APIs that manage subscribing to books and managing them.
 
+### CORS
+
+The API doesn't filter any site or Verbs. This was deliberate for demo purposes and can be changed to allow only approved sites registered as API Users
+
 
 # DEMO
 
 ## Login
 
-> Method: POST
+> Run this solution first [http://localhost:5001]
+> Run the Angular app [http://localhost:4200]
 
-> http://localhost:5001/api/auth
+Username : __admin@gmail.com__
 
-> Params:
-
-```json
-{
-	"email":"admin@gmail.com",
-	"password":"1234"
-}
-```
-> Payload:
-
-```json
-{
- "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJKb2huZG9lQGhvdG1haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoic3Vic2NyaWJlciIsImV4cCI6MTYwNTAwNDQyOCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIn0.nxcVhWky3wb8UMGwDQ_Jhqz1CBCvIiqOgO0OYhvUWak"
-}
-```
-
-
-
+Password : __1234__
 
